@@ -40,8 +40,8 @@ function draw(){
             text(objects[i].label + "  " + percent + "% ",objects[i].x + 15,objects[i].y + 15);
             noFill();
             stroke("#eb1c09");
-            rect(object[i].x,objects[i].y,objects[i].width,objects[i].height);
-            
+            rect(objects[i].x,objects[i].y,objects[i].width,objects[i].height);
+
         }
     }
 
